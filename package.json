@@ -1,12 +1,12 @@
 {
   "name": "cheerio-bower-build",
-  "version": "0.0.1",
-  "scripts" : {
-    "postinstall" : "browserify ./node_modules/cheerio/index.js --standalone cheerio | derequire > ./dist/cheerio.js"
+  "version": "0.0.3",
+  "scripts": {
+    "postinstall": "browserify ./node_modules/cheerio/index.js --standalone cheerio | derequire > ./dist/cheerio.js"
   },
   "dependencies": {
     "browserify": "14.4.x",
-    "cheerio": "1.0.0-rc.1",
+    "cheerio": "1.0.0-rc.3",
     "derequire": "2.0.x"
   }
 }
